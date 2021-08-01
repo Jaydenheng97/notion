@@ -1,49 +1,11 @@
 <body style="background: rgb(47, 52, 55);">
-  <div style="position: relative;" id="embedContainer">
-  <div style="position: absolute; top: 0; right: 0; z-index: 100;">      <a target="_blank" class="apption-label" href="/?src=apption_label">
-        apption.co
+  
 </a>
-<style>
-  .apption-label {
-    color: rgba(159, 166, 178, 1);
-    text-decoration: none;
-    font-size: 0.5rem;
-  }
 
-  .apption-label:hover {
-    color: #5850ec;
-    text-decoration: underline;
-  }
-</style></div>
-  <a class="weatherwidget-io" href="https://forecast7.com/en/3d15101d60/palm-spring--damansara/" data-label_1="PALM SPRING @ DAMANSARA" data-label_2="WEATHER" data-theme="gray" data-basecolor="#2F3437" style="display: block; position: relative; height: 111px; padding: 0px; overflow: hidden; text-align: left; text-indent: -299rem;">PALM SPRING @ DAMANSARA WEATHER<iframe id="weatherwidget-io-0" class="weatherwidget-io-frame" title="Weather Widget" scrolling="no" frameborder="0" width="100%" src="https://weatherwidget.io/w/" style="display: block; position: absolute; top: 0px; height: 111px;"></iframe></a>
-<script id="weatherwidget-io-js" src="https://weatherwidget.io/js/widget.min.js"></script><script>
+  <a class="weatherwidget-io" href="https://forecast7.com/en/3d15101d60/palm-spring--damansara/" data-label_1="PALM SPRING @ DAMANSARA" data-label_2="WEATHER" data-theme="gray" data-basecolor="#2F3437" >PALM SPRING @ DAMANSARA WEATHER</a>
+<script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script>
-</div>
 
-
-<script type="text/javascript" charset="utf-8">
-  function inIframe () {
-    try {
-      return window.self !== window.top;
-    } catch (e) {
-      return false;
-    }
-  }
-
-  var embedContainer = document.getElementById("embedContainer");
-  var embedURL = 'https://apption.co/embeds/lqd508';
-
-  if (inIframe()) {
-    // It's ok
-  } else {
-    embedContainer.innerHTML = `<div>
-<a style="text-decoration: none; color: black; font-weight: bold;" href="https://apption.co" target="_blank">🖼️️
-        Apption.co</a>
-<p>${'paste the url into your Notion page&#39;s /embed block.'}</p>
-<p><span style="font-weight: bold;">${embedURL}</span></p>
-</div>`
-  }
-</script>
 
 </body>
